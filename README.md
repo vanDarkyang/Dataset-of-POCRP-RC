@@ -22,9 +22,8 @@ Download and extract the ZIP archive for the desired proportion. Each archive co
 
 The 20% RC benchmark was stored separately from the original archive containing the 0%, 10%, and 30% variants. This release adds the available 20% benchmark and provides English archive names and documentation.
 
-The paper describes 39 subsets of 40 instances, totaling 1,560 instances. The initially inspected copy contained one empty file, `Bay-15-8-5-79-63-16-17.pro`. Its nonempty counterpart was recovered from the separate data-generation archive with distinct RC identifiers (Z_100, Z_101, ...). The recovered file contains 79 containers (63 ordinary and 16 rolled) in 15 yard stacks, and its bytes are preserved unchanged.
+The paper describes 39 subsets of 40 instances, totaling 1,560 instances. 
 
-To verify provenance, all 1,559 other benchmark instances were compared against that archive: 1,520 matched byte for byte; the remaining 39 matched the first instance record in the corresponding source files, which contained additional appended records. Only the missing instance was recovered; the other distributed benchmark files were not replaced. The 20% archive now contains all **1,560 instances**. The 195-instance tuning subset is unchanged and complete.
 
 ## Experimental settings
 
